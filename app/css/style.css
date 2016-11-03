@@ -1,0 +1,50 @@
+.thumb {
+    height: 450px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}
+
+input {
+    display: none;
+}
+
+#output {
+    margin: 15px;
+    /*height: 300px;*/
+    /*width: 400px;*/
+    border: 2px solid #27496d;
+    /*background-size: contain;*/
+    /*background: center center no-repeat;*/
+}
+
+#output div {
+
+
+    font-size: 25px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#getImg {
+    color: #423f3f;
+    background-color: #6690bb;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 10px #27496d;
+    font-size: 20px;
+    outline: none;
+    font-family: monospace;
+    padding: 5px 18px;
+    display: block;
+    margin: 15px;
+}
+
+#getImg:hover {
+    background-color: #417cb8
+}
+
+#getImg:active,
+#getImg.active {
+    background-color: #417cb8;
+    box-shadow: 0 5px #27496d;
+    transform: translateY(5px);
+}
